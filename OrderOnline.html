@@ -1,0 +1,622 @@
+<html>
+	<head>
+		<title>Order Online</title>
+        <style type="text/css">
+            body{
+                background-image: url("bg.jpg");    
+                background-repeat: repeat-y;
+                background-size: 1260px auto;
+            }
+            img.icons1{
+                height: 25px;
+            }
+            .topleft{
+                color: white;         
+
+            }
+            th{
+                padding: 10px;
+            }
+            th.icons{
+                padding: 2px;
+            }
+            th.order{
+                border: 2px solid white;
+            }
+            .ribbon{
+                width: 1250px;
+                height: 44px;
+                color: white;
+                background-color: yellow;
+            }
+            .prototype{
+                width: 1250px;
+                height: 207px;
+                color: white;
+                background-color: rgb(79, 81, 82);
+                border-bottom: 2px solid black;
+            }
+            .prototype1{
+                width: 1250px;
+                height: auto;
+                color: white;
+                background-color: rgb(79, 81, 82);
+                border-bottom: 2px solid black;
+            }
+            table.ribbontable th.ribbontable {
+                color: black;
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            .button {
+                background-color: white;
+                border: 2px solid:;
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                font-size: 60px;
+                border-radius: 7px;
+                width: 80px;
+            }
+            img.food{
+                height: 200px;
+                width: 250px;
+            }
+            .divider{
+                width: 1250px;
+                background-image: url(bg.jpg);
+                background-repeat: no-repeat;
+                color: white;
+                padding-top: 150px;
+            }
+            .fixed{
+                position: fixed;
+                background-image: url(bg.jpg);
+                background-size: 1250px 100px;
+                background-repeat: no-repeat;
+            }
+            .cart1{
+                color: white;
+                font-size: 20px;
+                border: 2px dashed white;
+            }
+            th.cart1 td.cart1{
+                border: 2px solid white;
+            }
+            a:link.top, a:visited.top {
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
+            a:hover.top, a:active.top {
+            color: rgb(139, 211, 139);
+            }
+            a:link.ribbon1, a:visited.ribbon1 {
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
+            a:hover.ribbon1, a:active.ribbon1 {
+            color: brown;
+            }
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+                }
+
+                .button span:after {
+                content: '+';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+                }
+
+                .button:hover span {
+                padding-right: 25px;
+                }
+
+                .button:hover span:after {
+                opacity: 1;
+                right: 0;
+                }
+
+      
+
+
+        </style>
+    </head>
+        <body>
+          <div class="fixed">  
+            <div>
+                <p style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 12px;  "><b> Thai at Heart</b></h1>
+               
+                <table align = "right" class="topleft">
+                <tr id="topleft">
+                    <th class="topleft"><a class="top" href="Project1_RestaurantMenu.html">Home</a></th>
+                    <th><a class="top" href="AboutUs.html">About Us</a></th>
+                    <th><a class="top" href="Menu.html">Menu</a></th>
+                    <th><a class="top" href="Gallery.html">Gallery</a></th>
+                    <th class="order"><a class="top" href="OrderOnline.html">Order Online</a></th>
+                    <th><a class="top" href="Contact.html">Contact</a></th>
+                    <th class="icons"><img class="icons1" src="FacebookLogo.jpg"></th>
+                    <th class="icons"><img class="icons1" src="TwitterLogo.jpg"></th>
+                    <th class="icons"><img class="icons1" src="InstagramLogo.jpg"></th>
+                </tr>
+            </table>
+            </div> <div class="ribbon">
+                <table align = "left" class="ribbontable">
+                    <tr>
+                        <th class="ribbontable"><a class="ribbon1" href="#Appetizers">Appetizers</a></th>
+                        <th class="ribbontable"><a class="ribbon1" href="#SingleDishes">Single Dishes</a></th>
+                        <th class="ribbontable"><a class="ribbon1" href="#StirFried">Stir-fried</a></th>
+                        <th class="ribbontable"><a class="ribbon1" href="#Curry">Curry</a></th>
+                        <th class="ribbontable"><a class="ribbon1" href="#Soup">Soup</a></th>
+                        <th class="ribbontable"><a class="ribbon1" href="#Noodles">Noodles</a></th>
+                        <th class="ribbontable"><a class="ribbon1" href="#Carttt">Cart</a></th>
+                    </tr>
+                </table>
+            
+
+            </div>
+        </div>
+        <div>
+            <a id="Appetizers"></a>
+                <div class="divider">
+                    <h1 style= "  color: white: 30px; font-family: 'Courier New', monospace; padding-top: 1px;  ">Appetizers</h1>
+                </div>
+                <div class="prototype">
+                    <table align="left">
+                        <tr>
+                            <td><img class="food" src="Appetizer1.jpg"></td>
+                        
+                        </tr>
+
+                    </table>
+                    <table align="left">
+                        <tr>
+                            <td id="Appetizer1"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Appetizer 1</h1></td>    
+                        
+                        </tr>
+
+                    </table>
+                    <table align="right" style="padding-right: 20px;">
+                        <tr>
+                            <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">100/-</h1></td>    
+                            </tr>
+                            <tr>
+                            <td><button id="Appetizer 1" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                        </tr>
+
+                    </table>
+
+
+                </div>                <div class="prototype">
+                    <table align="left">
+                        <tr>
+                            <td><img class="food" src="Appetizer2.jpg"></td>
+                        
+                        </tr>
+
+                    </table>
+                    <table align="left">
+                        <tr>
+                            <td id="Appetizer2"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Appetizer 2</h1></td>    
+                        
+                        </tr>
+
+                    </table>
+                    <table align="right" style="padding-right: 20px;">
+                        <tr>
+                            <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">200/-</h1></td>    
+                            </tr>
+                            <tr>
+                            <td><button id="Appetizer 2" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                        </tr>
+
+                    </table>
+
+
+                </div>            
+                </div>
+                <div>
+                    <a id="SingleDishes"></a>
+                    <div class="divider">
+                        <h1 style= "  color: white: 30px; font-family: 'Courier New', monospace; padding-top: 1px;  ">Single Dishes</h1>
+                    </div>
+                    <div class="prototype">
+                        <table align="left">
+                            <tr>
+                                <td><img class="food" src="SingleDish1.jpg"></td>
+                             
+                            </tr>
+        
+                        </table>
+                        <table align="left">
+                            <tr>
+                                <td id="SingleDish1"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Single Dish 1</h1></td>    
+                             
+                            </tr>
+        
+                        </table>
+                        <table align="right" style="padding-right: 20px;">
+                            <tr>
+                                <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">100/-</h1></td>    
+                                </tr>
+                                <tr>
+                                <td><button id="Single Dish 1" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+        
+                            </tr>
+        
+                        </table>
+        
+        
+                    </div>            <div class="prototype">
+                        <table align="left">
+                            <tr>
+                                <td><img class="food" src="SingleDish2.jpg"></td>
+                             
+                            </tr>
+        
+                        </table>
+                        <table align="left">
+                            <tr>
+                                <td id="SingleDish2"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Single Dish 2</h1></td>    
+                             
+                            </tr>
+        
+                        </table>
+                        <table align="right" style="padding-right: 20px;">
+                            <tr>
+                                <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">200/-</h1></td>    
+                                </tr>
+                                <tr>
+                                <td><button id="Single Dish 2" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+        
+                            </tr>
+        
+                        </table>
+        
+        
+                    </div>            
+                    
+                </div>
+                <div>
+                    <a id="StirFried"></a>
+            <div class="divider">
+                <h1 style= "  color: white: 30px; font-family: 'Courier New', monospace; padding-top: 1px;  ">Stir-Fried</h1>
+            </div>
+            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="StirFried1.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="StirFried1"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Stir-Fried 1</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">100/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Stir Fried 1" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="StirFried2.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="StirFried2"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Stir-Fried 2</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">200/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Stir Fried 2" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>          
+
+                </div>
+            <div>
+                <a id="Curry"></a>
+            <div class="divider">
+                <h1 style= "  color: white: 30px; font-family: 'Courier New', monospace; padding-top: 1px;  ">Curry</h1>
+            </div>
+            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="Curry1.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="curry1"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Curry 1</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">100/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Curry 1" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="Curry2.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="curry2"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Curry 2</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">200/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Curry 2" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>
+            </div>
+            <div>
+                <a id="Soup"></a>
+            <div class="divider">
+                <h1 style= "  color: white: 30px; font-family: 'Courier New', monospace; padding-top: 1px;  ">Soup</h1>
+            </div>
+            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="Soup1.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="soup1"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Soup 1</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">100/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Soup 1" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="Soup2.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="soup2"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Soup 2</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">200/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Soup 2" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>  
+            </div>
+            <div>
+                <a id="Noodles"></a>
+            <div class="divider">
+                <h1 style= "  color: white: 30px; font-family: 'Courier New', monospace; padding-top: 1px;  ">Noodles</h1>
+            </div>
+            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="Noodles1.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="noodles1"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Noodles 1</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">100/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Noodles 1" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>            <div class="prototype">
+                <table align="left">
+                    <tr>
+                        <td><img class="food" src="Noodles2.jpg"></td>
+                     
+                    </tr>
+
+                </table>
+                <table align="left">
+                    <tr>
+                        <td id="noodles2"><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">Noodles 2</h1></td>    
+                     
+                    </tr>
+
+                </table>
+                <table align="right" style="padding-right: 20px;">
+                    <tr>
+                        <td><h1 style= " color: white; font-size: 30px; font-family: 'Courier New', monospace; padding-top: 8px; ">200/-</h1></td>    
+                        </tr>
+                        <tr>
+                        <td><button id="Noodles 2" class = "button" onclick=remove(this.id)><p style= " color: black; font-size: 15px; font-family: 'Courier New', monospace;padding-left: 5px; "><span>Add</span</p></button></td>    
+
+                    </tr>
+
+                </table>
+
+
+            </div>
+            </div>
+            <a id="Carttt"></a>
+            <div class="divider">
+                <p>CART</p>
+                <table align="left" id="Cart" class="cart1">
+                    <tr>
+                        <th class="cart1"><p style= " color: white; font-size: 20px; font-family: 'Courier New', monospace; padding: 10px; ">Food Item</p></th>
+                        <th class="cart1"><p style= " color: white; font-size: 20px; font-family: 'Courier New', monospace; padding: 10px; ">Price</p></th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>                    
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>                    
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>                    
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>                    
+                    </tr>
+
+                </table>
+
+
+            </div>
+            <script type="text/javascript">
+                document.getElementById("defr1").onclick = function(){
+                    document.getElementById("Cart").rows[1].cells[1].innerHTML = "";
+                    document.getElementById("Cart").rows[1].cells[0].innerHTML = "";
+                    document.getElementById("defr1").style.display = "none";
+                }
+                document.getElementById("defr2").onclick = function(){
+                    document.getElementById("Cart").rows[2].cells[1].innerHTML = "";
+                    document.getElementById("Cart").rows[2].cells[0].innerHTML = "";
+                    document.getElementById("defr2").style.display = "none";
+                }  
+                let total = 0;
+                let one=0;
+                let two=0;     
+                 function remove(IDName)
+        {
+            var table1 = document.getElementById("Cart");
+            var idname = IDName;
+            
+            var i = idname.length;
+            var idname1 = idname.slice(0,length-1);
+            var row = table1.insertRow(1);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            cell1.innerHTML = idname;
+            if(idname[i-1]=='2'){
+                cell2.innerHTML = "200";
+                two++;
+                total=total+200;
+            }
+            if(idname[i-1]=='1'){
+                cell2.innerHTML = "100";
+                one++;
+                total=total+100;              
+            }
+
+        }
+
+
+
+            </script>
+            <br>
+            <div id="total">
+                <p style= " color: white; font-size: 20px; font-family: 'Courier New', monospace; padding: 10px; " id="total1"></p>
+            </div>
+
+        </body>
+
+</html>
+		
